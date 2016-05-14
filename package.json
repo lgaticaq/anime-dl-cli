@@ -2,19 +2,15 @@
   "name": "anime-dl-cli",
   "version": "1.1.2",
   "description": "CLI for show and download anime from jkanime.net",
-  "main": "lib",
+  "main": "src",
   "scripts": {
-    "prepublish": "npm run build -s",
-    "prebuild": "npm run lint -s && npm run clean -s",
-    "build": "babel src --out-dir lib --source-maps",
-    "lint": "eslint src && eslint test",
-    "clean": "rimraf lib"
+    "prepublish": "eslint src"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": ">=4"
   },
   "bin": {
-    "anime-dl": "lib/index.js"
+    "anime-dl": "src/index.js"
   },
   "preferGlobal": true,
   "repository": {
@@ -35,14 +31,11 @@
     "anime-dl": "^3.0.0",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
+    "ora": "^0.2.1",
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.8.0",
-    "babel-core": "^6.8.0",
-    "babel-preset-es2015": "^6.6.0",
-    "eslint": "^2.10.0",
-    "rimraf": "^2.5.2"
+    "eslint": "^2.10.1"
   },
   "eslintConfig": {
     "env": {
@@ -51,9 +44,6 @@
       "mocha": true
     },
     "extends": "eslint:recommended",
-    "parserOptions": {
-      "sourceType": "module"
-    },
     "rules": {
       "indent": [
         2,
@@ -75,10 +65,5 @@
         0
       ]
     }
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
   }
 }

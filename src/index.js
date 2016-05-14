@@ -2,11 +2,12 @@
 
 'use strict';
 
-import program from 'commander';
-import animeDl from 'anime-dl';
-import chalk from 'chalk';
-import updateNotifier from 'update-notifier';
-import pkg from '../package.json';
+const program = require('commander');
+const animeDl = require('anime-dl');
+const chalk = require('chalk');
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+const ora = require('ora');
 
 updateNotifier({pkg}).notify();
 
@@ -19,14 +20,19 @@ program
   .parse(process.argv);
 
 if (program.anime && program.chapter) {
-  console.log(chalk.green('Searching...'));
+  const spinner = ora('Searching...');
+  spinner.start();
   animeDl.getLinksByNameAndChapter(program.anime, program.chapter).then((data) => {
+    spinner.stop();
     if (data.urls.length === 0) return console.log(chalk.red('No links found'));
     console.log(chalk.green('Run any of these links in your video player'));
     for (let url of data.urls) {
       console.log(chalk.green(url));
     }
-  }).catch((err) => console.log(chalk.red(`Error: ${err.message}`)));
+  }).catch((err) => {
+    spinner.stop();
+    console.log(chalk.red(`Error: ${err.message}`));
+  });
 } else {
   program.help();
 }
