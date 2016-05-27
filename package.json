@@ -35,7 +35,7 @@
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {
-    "eslint": "^2.10.2"
+    "eslint": "^2.11.0"
   },
   "eslintConfig": {
     "env": {
