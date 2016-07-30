@@ -31,7 +31,7 @@
     "anime-dl": "^3.0.0",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
-    "ora": "^0.2.3",
+    "ora": "^0.3.0",
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {
