@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/lgaticaq/anime-dl-cli#readme",
   "dependencies": {
-    "anime-dl": "^3.0.0",
+    "anime-dl": "^3.1.0",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "ora": "^0.3.0",
