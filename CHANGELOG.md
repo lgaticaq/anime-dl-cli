@@ -1,3 +1,14 @@
+#### 2.1.1 (2016-9-26)
+
+##### Chores
+
+* **package:**
+  * update anime-dl to version 3.1.0 ([34606c82](https://github.com/lgaticaq/anime-dl-cli/commit/34606c826b07bca1468e954f1b789be03c7fc58a))
+  * update eslint to version 3.6.0 ([22074667](https://github.com/lgaticaq/anime-dl-cli/commit/22074667d463f20896d56dee628a449505ea197a))
+  * update eslint to version 3.5.0 ([e1f1400b](https://github.com/lgaticaq/anime-dl-cli/commit/e1f1400b54afbfd1a5b43670ccf36af8d27c4353))
+  * update eslint to version 3.4.0 ([dc85fd5b](https://github.com/lgaticaq/anime-dl-cli/commit/dc85fd5b9353c00fda51683a0bacf3bd62fb5a93))
+  * update eslint to version 3.3.1 ([1f49c0ea](https://github.com/lgaticaq/anime-dl-cli/commit/1f49c0ea04aeeb91078f142d0e6e1f43dabb7d4e))
+
 ### 2.1.0 (2016-8-15)
 
 ##### Chores
