@@ -1,3 +1,22 @@
+### 2.2.0 (2016-10-15)
+
+##### Chores
+
+* **package:**
+  * Add yarnpkg ([55e7344d](https://github.com/lgaticaq/anime-dl-cli/commit/55e7344d45cc0f82b7113f78f27e998325fa9b52))
+  * update eslint to version 3.8.0 ([09b17c9a](https://github.com/lgaticaq/anime-dl-cli/commit/09b17c9a0d78f2e61f5b1b2c0582a6f6739da2b1))
+  * update eslint to version 3.7.1 ([b00ad6b7](https://github.com/lgaticaq/anime-dl-cli/commit/b00ad6b76305ee6e5302be2a688e7ed2d86f17b7))
+  * update eslint to version 3.7.0 ([9a1c8c49](https://github.com/lgaticaq/anime-dl-cli/commit/9a1c8c49cc2826dfe0b878994c1b101f7f91f7fa))
+  * update eslint to version 3.6.1 ([cb5b9eb5](https://github.com/lgaticaq/anime-dl-cli/commit/cb5b9eb514edee475eff59ff566774b9472d6786))
+
+##### Documentation Changes
+
+* **readme:** Update examples ([8ae05fa8](https://github.com/lgaticaq/anime-dl-cli/commit/8ae05fa8de7c867662e88fe0df5824d1850b376b))
+
+##### New Features
+
+* **download:** Add download chapter option ([024ee679](https://github.com/lgaticaq/anime-dl-cli/commit/024ee679377e490a3d8ac912b47d8271cb54bcbf))
+
 #### 2.1.1 (2016-9-26)
 
 ##### Chores
