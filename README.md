@@ -15,9 +15,13 @@ npm i -g anime-dl-cli
 
 ## Use
 
+For streamng require [mpv](https://mpv.io/). For download require [wget](https://www.gnu.org/software/wget/).
+
 ```bash
 anime-dl -a <anime> -c <chapter>
 anime-dl -a <anime> -c <chapter> -k # play in mpv
+anime-dl -a <anime> -c <chapter> -d # download in current directory
+anime-dl -a <anime> -c <chapter> -d <directory> # download in a directory
 ```
 
 ## License
