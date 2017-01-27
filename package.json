@@ -34,11 +34,11 @@
     "anime-dl": "^4.0.2",
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
-    "ora": "^1.0.0",
+    "ora": "^1.1.0",
     "update-notifier": "^1.0.3"
   },
   "devDependencies": {
-    "eslint": "^3.13.1",
+    "eslint": "^3.14.1",
     "generate-changelog": "^1.1.0"
   },
   "eslintConfig": {
