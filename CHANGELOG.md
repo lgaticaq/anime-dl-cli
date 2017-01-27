@@ -1,3 +1,15 @@
+#### 2.2.3 (2017-1-26)
+
+##### Chores
+
+* **package:**
+  * Update dependencies ([625db392](https://github.com/lgaticaq/anime-dl-cli/commit/625db392479b76eafee43b6d33ef71fb131fa538))
+  * update eslint to version 3.13.1 ([4e7a6418](https://github.com/lgaticaq/anime-dl-cli/commit/4e7a6418dbd9192f3d7737e236aef3e62f09406c))
+
+##### Bug Fixes
+
+* **package:** update ora to version 1.0.0 ([6fc7111c](https://github.com/lgaticaq/anime-dl-cli/commit/6fc7111cbe98f394366363af10a063dd5f78afea))
+
 #### 2.2.2 (2016-12-17)
 
 ##### Chores
