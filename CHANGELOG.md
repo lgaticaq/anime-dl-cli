@@ -1,3 +1,18 @@
+#### 2.2.4 (2017-2-21)
+
+##### Chores
+
+* **yarn:** Update yarn.lock ([50bfad4b](https://github.com/lgaticaq/anime-dl-cli/commit/50bfad4bed664be1b0d54f68eb19d1325c4c7f77))
+* **package:** update eslint to version 3.16.0 ([6688bd6e](https://github.com/lgaticaq/anime-dl-cli/commit/6688bd6e5de8dc299bd17ad6b6b80520c6889cb9))
+
+##### Documentation Changes
+
+* **LICENSE:** Update year ([3cca2e84](https://github.com/lgaticaq/anime-dl-cli/commit/3cca2e849f34a926332e0808fea80c96d5a1b542))
+
+##### Bug Fixes
+
+* **package:** update update-notifier to version 2.1.0 ([88841810](https://github.com/lgaticaq/anime-dl-cli/commit/888418109d12197d36e483452d7715e12e6eb7ec))
+
 #### 2.2.3 (2017-1-26)
 
 ##### Chores
