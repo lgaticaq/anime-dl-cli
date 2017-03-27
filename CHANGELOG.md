@@ -1,3 +1,12 @@
+#### 2.2.5 (2017-3-26)
+
+##### Chores
+
+* **package:**
+  * Upgrade eslint to version 3.18.0 ([459a7713](https://github.com/lgaticaq/anime-dl-cli/commit/459a771377aa16e08f6455694e9951d72a56e8fd))
+  * Upgrade ora to version 1.2.0 ([85943e48](https://github.com/lgaticaq/anime-dl-cli/commit/85943e48d8cd3927369d5d0f7242daf3e59486eb))
+  * Upgrade anime-dl to version 4.0.3 ([3b6f12d7](https://github.com/lgaticaq/anime-dl-cli/commit/3b6f12d76e4129815b3dff6b657c2c188350471e))
+
 #### 2.2.4 (2017-2-21)
 
 ##### Chores
