@@ -27,13 +27,13 @@ ajv@^4.7.0:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-anime-dl@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/anime-dl/-/anime-dl-4.0.2.tgz#6582594488adfeda9efe2c6bbab1630260d6d12c"
+anime-dl@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/anime-dl/-/anime-dl-4.0.3.tgz#d8e6d82fac7d97cd0902c8ba4ad900a021e2c06e"
   dependencies:
     cheerio "^0.22.0"
     cloudscraper "^1.4.1"
-    fuse.js "^2.6.1"
+    fuse.js "^2.6.2"
 
 ansi-align@^1.1.0:
   version "1.1.0"
@@ -624,9 +624,9 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fuse.js@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-2.6.1.tgz#d118e00f9a859f7b354ed4f7740214249e32a57a"
+fuse.js@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-2.6.2.tgz#d5d994fda96f543b5a51df38b72cec9cc60d9dea"
 
 generate-changelog@^1.1.0:
   version "1.1.0"
