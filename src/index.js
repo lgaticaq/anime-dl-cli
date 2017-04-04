@@ -35,8 +35,10 @@ if (program.anime && program.chapter) {
     }
     spinner.succeed();
     if (program.mpv) {
+      const urls = data.urls.join('\n');
+      console.log(chalk.green(`All videos options:\n${urls}\n`));
       const url = data.urls[0];
-      console.log(chalk.green(`Playing ${url} in mpv`));
+      console.log(chalk.green(`Trying Playing ${url} in mpv\n\nIf fail try with other link`));
       spawn('mpv', [url], {detached: true, stdio: 'ignore'});
     } else if (typeof program.download !== 'undefined') {
       if (program.download === true) {
