@@ -1,3 +1,13 @@
+#### 2.2.6 (2017-4-3)
+
+##### Chores
+
+* **package:** Upgrade eslint to version 3.19.0 ([cad40116](https://github.com/lgaticaq/anime-dl-cli/commit/cad40116059b63c5088cba1ad8b7c3b49ceb6588))
+
+##### New Features
+
+* **links:** Print all links ([b81c8828](https://github.com/lgaticaq/anime-dl-cli/commit/b81c8828dc065fba7f780ba14dab8440607c2bd5))
+
 #### 2.2.5 (2017-3-26)
 
 ##### Chores
