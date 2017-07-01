@@ -1,3 +1,11 @@
+#### 2.2.7 (2017-07-01)
+
+##### Chores
+
+* **package:**
+  * update dependencies ([8d2b0f01](https://github.com/lgaticaq/anime-dl-cli/commit/8d2b0f01c7be36e00ddce9fcea9f46acd9e63c0c))
+  * update eslint to version 4.0.0 ([a85907c1](https://github.com/lgaticaq/anime-dl-cli/commit/a85907c1c339c864e5cd095bdf00269a12efc376))
+
 #### 2.2.6 (2017-4-3)
 
 ##### Chores
