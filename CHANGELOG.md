@@ -1,3 +1,13 @@
+#### 2.2.8 (2017-07-04)
+
+##### Chores
+
+* **package:** update dependencies ([c8c293ff](https://github.com/lgaticaq/anime-dl-cli/commit/c8c293ff00289da7ff6864f7d56cb7ea7510db6c))
+
+##### Bug Fixes
+
+* **package:** update chalk to version 2.0.0 ([294946db](https://github.com/lgaticaq/anime-dl-cli/commit/294946db23437fc8e8ce04c629466b15991907c3))
+
 #### 2.2.7 (2017-07-01)
 
 ##### Chores
