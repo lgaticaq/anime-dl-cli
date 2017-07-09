@@ -1,3 +1,9 @@
+#### 2.2.9 (2017-07-09)
+
+##### Chores
+
+* **package:** update dependencies ([65c2b4b3](https://github.com/lgaticaq/anime-dl-cli/commit/65c2b4b3f74e8941f84c5fd947aeac9a98694d85))
+
 #### 2.2.8 (2017-07-04)
 
 ##### Chores
