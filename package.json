@@ -50,7 +50,7 @@
     "generate-changelog": "1.7.0",
     "husky": "0.14.3",
     "lint-staged": "6.0.1",
-    "prettier-standard": "7.0.3"
+    "prettier-standard": "8.0.0"
   },
   "eslintConfig": {
     "extends": "standard",
