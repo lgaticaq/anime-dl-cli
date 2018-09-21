@@ -1,4 +1,4 @@
 {
   "automerge": "minor",
-  "extends": [":library"]
+  "extends": ["config:base"]
 }
